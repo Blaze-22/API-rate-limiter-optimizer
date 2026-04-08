@@ -13,3 +13,4 @@ sb3-contrib>=2.2.0
 # Visualisation (optional but nice for hackathon demo)
 matplotlib>=3.7.0
 pandas>=2.0.0
+gradio
