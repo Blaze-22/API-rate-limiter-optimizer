@@ -1,16 +1,7 @@
-# API Rate Limit Optimizer — RL Environment
-# ==========================================
-# Core dependencies (always required)
 gymnasium>=0.29.0
 numpy>=1.24.0
-
-# RL training (install for training)
 stable-baselines3>=2.2.0
-
-# For MaskablePPO (recommended — prevents invalid actions)
 sb3-contrib>=2.2.0
-
-# Visualisation (optional but nice for hackathon demo)
-matplotlib>=3.7.0
-pandas>=2.0.0
-gradio
+fastapi
+uvicorn
+pydantic
